@@ -12,7 +12,7 @@ function App() {
       {/* <NavbarDark />*/}
       {/* <Buttons /> */}
       {/* <Cards />  */}
-      <Breakpoint />
+      {/* <Breakpoint /> */}
       {/* <Table /> */}
     </div>   
   );
