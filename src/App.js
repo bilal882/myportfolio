@@ -11,7 +11,7 @@ function App() {
       {/* <NavbarLight />*/}
       {/* <NavbarDark />*/}
       {/* <Buttons /> */}
-      <Cards /> 
+      {/* <Cards />  */}
       {/* <Breakpoint /> */}
       {/* <Table /> */}
     </div>   
