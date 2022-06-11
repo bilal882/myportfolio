@@ -13,7 +13,7 @@ function App() {
       {/* <Buttons /> */}
       {/* <Cards />  */}
       {/* <Breakpoint /> */}
-      {/* <Table /> */}
+      <Table />
     </div>   
   );
 }
