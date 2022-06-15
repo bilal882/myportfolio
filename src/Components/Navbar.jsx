@@ -51,7 +51,7 @@ export default function Navabr() {
 
           <div class="navbar-end">
             <div class="navbar-item">
-              <p>Hi User</p>
+              {/* <p>Hi User</p> */}
             </div>
           </div>
         </div>
