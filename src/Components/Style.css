@@ -335,25 +335,9 @@ legend,
 textarea,
 pre,
 iframe,
-hr,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+hr {
     margin: 0;
     padding: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-size: 100%;
-    font-weight: normal;
 }
 
 ul {
@@ -2279,17 +2263,6 @@ fieldset[disabled] .button {
 .content pre:not(:last-child),
 .content table:not(:last-child) {
     margin-bottom: 1em;
-}
-
-.content h1,
-.content h2,
-.content h3,
-.content h4,
-.content h5,
-.content h6 {
-    color: #363636;
-    font-weight: 600;
-    line-height: 1.125;
 }
 
 .content h1 {
