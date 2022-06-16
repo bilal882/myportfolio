@@ -1,5 +1,6 @@
 import React from 'react';
-import { BrowseRoute, Routes, Route } from "react-router-dom";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../Home/Home";
 import About from "../About/About";
 import Contact from "../Contact/Contact";
@@ -8,7 +9,7 @@ import NoPage from "../Nopage/Nopage";
 export default function Routing() {
     return (
         <div>
-            <BrowseRoute>
+            <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<Home />}>
                         <Route index element={<Home />} />
@@ -17,7 +18,7 @@ export default function Routing() {
                         <Route path="*" element={<NoPage />} />
                     </Route>
                 </Routes>
-            </BrowseRoute>
+            </BrowserRouter>
         </div>
     )
 }
