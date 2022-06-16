@@ -1,13 +1,14 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 export default function Navabr() {
   return (
     <div>
       <nav class="navbar is-success" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <a class="navbar-item" href="#">
+          <Link to="/" class="navbar-item" href="#">
             Muhammad Bilal Iqbal
-          </a>
+          </Link> 
 
           <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
@@ -18,16 +19,16 @@ export default function Navabr() {
 
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start">
-            <a class="navbar-item">
+            <Link to="/" class="navbar-item">
               Home
-            </a>
+            </Link>
 
-            <a class="navbar-item">
+            <Link to="/about" class="navbar-item">
               About
-            </a>
-            <a class="navbar-item">
+            </Link>
+            <Link to="/contact" class="navbar-item">
               Contact
-            </a>
+            </Link>
           </div>
         </div>
       </nav>
