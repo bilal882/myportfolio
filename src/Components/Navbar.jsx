@@ -15,7 +15,7 @@ export default function Navabr() {
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
           </a>
-        </div>
+        </div> 
 
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start">
