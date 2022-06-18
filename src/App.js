@@ -1,11 +1,17 @@
-import './Components/Style.css';
-import Navabr from './Components/Navbar';
-import Routing from "./Components/Routing/Routing"
+import "./App.css"
+import NavbarLight from "./Components/Navbar/NavbarLight";
+import NavbarDark from "./Components/Navbar/NavbarDark";
+import Buttons from "./Components/Buttons/Buttons";
+import Cards from "./Components/Cards/Cards";
+import Accordion from "./Components/Accordion/Accordion";
 function App() {
   return (
     <div>
-      {/* <Navabr /> */}
-      {/* <Routing /> */}
+      {/* <NavbarLight /> */}
+      {/* <NavbarDark /> */}
+      {/* <Buttons /> */}
+      {/* <Cards /> */}
+      <Accordion />
     </div>
   );
 }
