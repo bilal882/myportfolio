@@ -7,7 +7,7 @@ export default function Table() {
         <div className='d-flex align-items-center justify-content-center'>
             <table class="styled-table">
                 <thead>
-                    <tr>
+                    <tr>    
                         <th>Breakpoint</th>
                         <th>Class infix</th>
                         <th>Dimensions</th>
