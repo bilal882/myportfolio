@@ -1,7 +1,10 @@
 import React from 'react'
 
-export default function haxhkj() {
+export default function 
+() {
   return (
-    <div>haxhkj</div>
+    <div>
+        
+    </div>
   )
 }
