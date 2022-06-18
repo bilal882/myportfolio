@@ -7,11 +7,11 @@ import Accordion from "./Components/Accordion/Accordion";
 function App() {
   return (
     <div>
-      {/* <NavbarLight /> */}
-      {/* <NavbarDark /> */}
-      {/* <Buttons /> */}
-      {/* <Cards /> */}
-      <Accordion />
+      <NavbarLight />
+      <NavbarDark />
+      <Buttons />
+      <Cards />
+      {/* <Accordion /> */}
     </div>
   );
 }
