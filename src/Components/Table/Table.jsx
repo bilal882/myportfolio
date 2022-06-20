@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Breakpoint() {
+export default function Table() {
     const smaller = "<";
     const laror = "≥";
     return (
