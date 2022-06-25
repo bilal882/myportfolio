@@ -339,7 +339,7 @@ body {
 }
 
 .disabled {
-  cursor: not-allowed;
+  cursor: copy;
 }
 
 .h1,
@@ -755,7 +755,7 @@ nav header,
   background-color: #000000;
   min-width: 12rem;
   border-radius: 1.5rem;
-  margin: 5px;
+  /* margin: 5px; */
   /* margin-top: 0.8rem; */
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -802,7 +802,7 @@ nav header,
   background-color: #ffffff;
   min-width: 12rem;
   border-radius: 1.5rem;
-  margin: 5px;
+  /* margin: 5px; */
   /* margin-top: 0.8rem; */
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -921,18 +921,18 @@ nav header,
 
 .btn {
   display: inline-block;
-  outline: none;
+  /* outline: none; */
   cursor: pointer;
   font-weight: 600;
   border-radius: 3px;
   padding: 12px 24px;
   /* border: 0; */
-  line-height: 1.15;
+  /* line-height: 1.15; */
   font-size: 16px;
 }
 
 .btn:focus {
-  transition: all 0.1s ease;
+  /* transition: all 0.1s ease; */
   box-shadow: 0 0 0 3px #00ffbf;
 }
 
@@ -2304,7 +2304,7 @@ nav header,
   min-width: 400px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.319);
 }
-   
+
 .styled-table thead tr {
   background-color: #009879;
   color: #ffffff;
@@ -2315,6 +2315,7 @@ nav header,
 .styled-table td {
   padding: 12px 15px;
 }
+
 .styled-table tbody tr {
   border-bottom: 1px solid #dddddd;
 }
@@ -2326,6 +2327,7 @@ nav header,
 .styled-table tbody tr:last-of-type {
   border-bottom: 2px solid #009879;
 }
+
 .styled-table tbody tr.active-row {
   font-weight: bold;
   color: #009879;

@@ -8,12 +8,12 @@ import Table from "./Components/Table/Table";
 function App() {
   return (
     <div>
-      {/* <NavbarLight />*/}
-      {/* <NavbarDark />*/}
-      {/* <Buttons /> */}
-      {/* <Cards />  */}
-      {/* <Breakpoint /> */}
-      {/* <Table /> */}
+      <NavbarLight />
+      <NavbarDark />
+      <Buttons />
+      {/* <Cards /> 
+      <Breakpoint /> */}
+      <Table />
     </div>   
   );
 }
