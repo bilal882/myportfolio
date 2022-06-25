@@ -29,7 +29,6 @@ export default function Table() {
                     </tr>
                 </tbody>
             </table>
-            <input type="text" spellCheck={true} />
         </div>
 
     )
